@@ -14,5 +14,8 @@ export default defineConfig({
       lodash: 'lodash',
     },
   },
-  base: '/Forgotten-Realms/', // Укажи название репозитория
+  build: {
+    outDir: 'dist', // Убедитесь, что сборка идёт в папку dist
+  },
+  base: '/Forgotten-Realms/'
 });
