@@ -17,5 +17,11 @@ export default defineConfig({
   build: {
     outDir: 'dist/Forgotten-Realms', // Папка, куда будет собираться проект
   },
-  base: '/Forgotten-Realms/'
+  base: '/Forgotten-Realms/',
+  css: {
+    preprocessorOptions: {
+      scss: {
+      },
+    },
+  },
 });
