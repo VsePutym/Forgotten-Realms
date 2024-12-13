@@ -11,7 +11,8 @@ export default defineConfig({
       '@Styles': '/src/styles',
       '@AnimatedEnemies': '/src/assets/Enemies',
       '@Img': '/src/assets',
-      lodash: 'lodash', // Убираем path.resolve, просто указываем имя пакета
+      lodash: 'lodash',
     },
-  }
+  },
+  base: '/Forgotten-Realms/', // Укажи название репозитория
 });
