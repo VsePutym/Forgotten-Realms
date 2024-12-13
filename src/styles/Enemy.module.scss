@@ -1,0 +1,14 @@
+.BosseAttack{
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.indicatorKrit{
+width: 100px;
+	position: absolute;
+	top: -70px;
+	right: 35%;
+	img{
+		filter: invert(1);
+	}
+}

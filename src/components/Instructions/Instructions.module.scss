@@ -1,0 +1,33 @@
+
+.bosseSpecial{
+	filter: invert(1);
+}
+.wrapper{
+	background-color: #333333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	padding: 100px;
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	color: white;
+	font-size: 25px;
+}
+.section{
+	display: flex;
+	align-items: center;
+	img{
+		padding: 20px;
+		width: 200px;
+	}
+}
+
+.start{
+	cursor: pointer;
+	img{
+		width: 250px;
+	}
+}

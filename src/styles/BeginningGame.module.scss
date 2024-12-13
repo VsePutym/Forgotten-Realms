@@ -1,0 +1,40 @@
+.container{
+	position: relative;
+	height: 100vh;
+	perspective: 800px; /* Создаёт 3D-эффект */
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: #333333;
+	overflow: hidden;
+}
+
+.storyText {
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	color: white;
+	position: absolute;
+	top: 100%;
+	transform: rotateX(25deg); /* Наклон текста */
+	transform-origin: 50% 100%; /* Точка начала анимации */
+	text-align: center;
+	font-size: 25px;
+	line-height: 2;
+	animation: scrollText 185s linear forwards; /* Анимация текста */
+}
+.startGame{
+	max-width: 200px;
+	position: absolute;
+	top: 100px;
+	cursor: pointer;
+	right: 50px;
+}
+
+@keyframes scrollText {
+	0% {
+		top: 100%;
+	}
+	100% {
+		top: -300%; /* Уход текста за экран */
+	}
+}

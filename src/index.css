@@ -1,0 +1,37 @@
+/* Применяем box-sizing для всех элементов */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Сброс базовых отступов и padding */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+/* Базовые стили для body */
+body {
+	font-family: "Cinzel", serif;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f9fc;
+}
+
+/* Универсальные стили для списков */
+ul, ol {
+	list-style: none;
+}
+
+/* Базовая настройка для изображений и видео */
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Простой контейнер для центровки */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 16px;
+}
