@@ -15,7 +15,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist', // Убедитесь, что сборка идёт в папку dist
+    outDir: 'dist/Forgotten-Realms', // Папка, куда будет собираться проект
   },
   base: '/Forgotten-Realms/'
 });
